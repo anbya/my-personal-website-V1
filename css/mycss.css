@@ -6,13 +6,15 @@
 }
 .myhero{
     background-color: #d6d6d6;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
 }
 .myhero2{
     display: flex;
     align-items: center;
     background-color: #d6d6d6;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
 }
 .mywrap{
     width: 100%;
@@ -20,10 +22,18 @@
     position: relative;
 }
 .stikyfooter{
+    width: 100%;
     height: 5vh;
     background-color: rgb(52, 58, 64);
     color: #ffffff;
     text-align: center;
     position: fixed;
     bottom: 0px;
+}
+.stikyheader{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
 }

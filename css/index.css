@@ -1,3 +1,13 @@
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 .services-card{
     background-color: #eeeeee;
 }
@@ -5,7 +15,19 @@
     display: flex;
     justify-content: center;
 }
-
+.justifycenter{
+    display: flex;
+    justify-content: center;
+}
+.aligncenter{
+    display: flex;
+	align-items: center;
+}
+.justifyandaligncenter{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
 .line-breaks{
 height: 5vh;
 }
@@ -52,4 +74,7 @@ section .section-title{
 	display:inline-block;
 	font-weight:700;
 	
+}
+.paddall5{
+	padding: 5%;
 }
